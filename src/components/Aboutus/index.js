@@ -11,7 +11,7 @@ const Aboutus = () => {
             <div className='col-lg-12 col-sm-12 m-0'>
                 <PageHeader title="RESUME" subTitle1='ABOUT' subTitle2='US' />
                 <PersonalInformation />
-                {/* <SKillsComponent /> */}
+                <SKillsComponent />
                 <AllExperience />
             </div>
         </AboutusPageContent>
