@@ -1,6 +1,9 @@
 import React from "react";
-import { PersonalInfo, PersonalContainer,PersonalDetails,DetailBox} from './styleComponent';
-import { personInfoonAboutus,careerDetails } from './constant';
+import { PersonalInfo, PersonalContainer, PersonalDetails, DetailBox } from './styleComponent';
+import { personInfoonAboutus, careerDetails } from './constant';
+import CustomButton from '../customButton';
+import { ReactComponent as DownloadCv } from '../../Assest/download.svg';
+import HorizentalLine from '../HorizentalLine';
 
 const PersonalInformation = () => {
     return (
@@ -12,18 +15,27 @@ const PersonalInformation = () => {
                         <div className="pt-3 row d-flex flex-wrap">
                             {personInfoonAboutus.map((val, index) => (
                                 <PersonalDetails className="py-1 col-6">
-                                    <span style={{color :'#fff', opacity: .5}}>{val.label}</span>:  <span style={{color : '#FFFFFF'}}>{val.value}</span>
+                                    <span style={{ color: '#fff', opacity: .5 }}>{val.label}</span>:  <span style={{ color: '#FFFFFF' }}>{val.value}</span>
                                 </PersonalDetails>
                             ))}
                         </div>
+                        <div className="mt-5">
+
+                        <CustomButton
+                            text='DOWNLOAD CV'
+                            icon={<DownloadCv />}
+                            marginLeft='0px'
+                        />
+                        </div>
+
                     </PersonalInfo>
                 </div>
                 <div className="col-lg-6 col-sm-12 col-md-12">
                     <div className="row">
-                        {careerDetails.map(val =>(
+                        {careerDetails.map(val => (
                             <div className="col-lg-6 col-md-6">
                                 <DetailBox>
-                                    <h3>{val.value}</h3> 
+                                    <h3>{val.value}</h3>
                                     <p>{val.label}</p>
                                 </DetailBox>
                             </div>
@@ -31,6 +43,7 @@ const PersonalInformation = () => {
                     </div>
                 </div>
             </div>
+            <HorizentalLine />
         </PersonalContainer>
     )
 }

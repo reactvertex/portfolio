@@ -55,3 +55,42 @@ export const careerDetails = [
     },
 
 ]
+
+// <------------------- SKilll data ---------------------->
+
+export const skillList = [
+    {
+        skillName: 'React',
+        data: [
+            { name: 'Group A', value: 400 },
+            { name: 'Group B', value: 300 },
+        ]
+    },
+    {
+        skillName: 'JavaScript',
+        data: [
+            { name: 'Group A', value: 400 },
+            { name: 'Group B', value: 300 },
+        ]
+    },
+    {
+        skillName: 'JavaScript',
+        data: [
+            { name: 'Group A', value: 400 },
+            { name: 'Group B', value: 300 },
+        ]
+    },
+    {
+        skillName: 'JavaScript',
+        data: [
+            { name: 'Group A', value: 400 },
+            { name: 'Group B', value: 300 },
+        ]
+    },  {
+        skillName: 'JavaScript',
+        data: [
+            { name: 'Group A', value: 400 },
+            { name: 'Group B', value: 300 },
+        ]
+    }
+]

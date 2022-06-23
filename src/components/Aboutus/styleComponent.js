@@ -62,3 +62,19 @@ padding : 20px 40px 25px 40px;
   }
  }
 `;
+
+
+// <--------------------------Experience Section ----------------->
+
+
+export const ExperienceSection = styled.div`
+
+`;
+
+export const ExperienceHeader = styled.div`
+width : 100%;
+font-size : 26px;
+font-weight : 800;
+color : #FFF;
+`;
+

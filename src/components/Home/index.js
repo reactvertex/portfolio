@@ -15,6 +15,7 @@ const HomePage = () => {
                     <CustomButton
                         text={userDetails.buttonText}
                         icon={<RightArrow />}
+                        marginLeft='20px'
                     />
                 </div>
             </div>

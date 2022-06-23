@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 export const TitleSection = styled.div`
 width : 100%;
-margin : 0 auto;
-position : relative;
+display : flex;
+justify-content : center;
 background-color : #111;
-padding : 80px 0px;
+padding : 30px 0px;
 h1 {
     text-align : center;
     font-size : 56px;
     font-weight : 900;
     color : #fff;
+    line-height : 1.5;
     span{
      color : #ffb400;
     }
@@ -18,12 +19,10 @@ h1 {
 `;
 
 export const Title = styled.span`
-font-size: 110px;
+font-size: 120px;
 letter-spacing: 10px;
 line-height: .7;
 position: absolute;
-right: 30%;
-top: 30%;
 text-transform: uppercase;
 font-weight: 800;
 -webkit-transform: translateY(-50% ,-50%);
