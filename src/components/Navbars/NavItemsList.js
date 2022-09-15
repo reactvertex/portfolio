@@ -5,7 +5,6 @@ import { NavItems, NavIcon,NavLabel } from './styleComponent';
 
 const NavItemsList = ({ val, index }) => {
     const [activeItem, setActiveList] = useState('')
-    console.log(val, 'path')
 
     const navigate = useNavigate()
     const handlePath = (path) => {
@@ -21,14 +20,8 @@ const NavItemsList = ({ val, index }) => {
 
     return (
         <NavItems index={index}
-            onClick={() => handlePath(val.path)}
-            // onMouseEnter={() => { onMouseEnter(val.index) }}
-            // onMouseLeave={() => { onMouseLeave(val.index) }}
-            // data-aos="fade-left"
-            // data-aos-delay="10"
-            // data-aos-easing="ease-in-sine"
+            onClick={() => handlePath(val.path)}           
         >
-            {/* {val.index == activeItem && <NavLabel>csdfdfd</NavLabel>} */}
             <NavIcon>
                 {val.Icon}
             </NavIcon>

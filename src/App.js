@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className="row no-gutters" style={{backgroundColor : '#111' }} >
+    <div className="row no-gutters mx-0" style={{backgroundColor : '#111' }} >
       <div className="col-lg-11 px-0">
         <Routers />
       </div>
