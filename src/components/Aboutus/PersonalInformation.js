@@ -15,7 +15,7 @@ const PersonalInformation = () => {
                         <div className="pt-3 row d-flex flex-wrap">
                             {personInfoonAboutus.map((val, index) => (
                                 <PersonalDetails className="py-1 col-6">
-                                    <span style={{ color: '#fff', opacity: .5 }}>{val.label}</span>:  <span style={{ color: '#FFFFFF' }}>{val.value}</span>
+                                    <span style={{ color: '#fff', opacity: .5 }}>{val.label}</span>:  <span style={{ color: '#FFFFFF' , wordBreak : 'break-all'}}>{val.value}</span>
                                 </PersonalDetails>
                             ))}
                         </div>

@@ -1,3 +1,4 @@
+import { ExperienceSection } from "./styleComponent"
 
 
 export const personInfoonAboutus = [
@@ -51,7 +52,7 @@ export const careerDetails = [
     },
     {
         label: 'AWARDS WON',
-        value: 1
+        value: 0
     },
 
 ]
@@ -93,4 +94,29 @@ export const skillList = [
             { name: 'Group B', value: 300 },
         ]
     }
+]
+
+// <------------------------Experience data ----------------->
+
+export const ExpDetail = [
+    {
+        duration : '2019 - Persent',
+        profile : 'Sr. Software Engineer',
+        company : 'People10 Technosoft',
+        jobDetails : 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+    },
+    {
+        duration : '2020 - 2022',
+        profile : 'Web Developer',
+        company : 'Excellence Technologies',
+        jobDetails : 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+
+    },
+    {
+        duration : '2019 - 2020',
+        profile : 'Frontend Developer',
+        company : 'Eduzent Infotech',
+        jobDetails : 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+    }
+   
 ]

@@ -18,11 +18,9 @@ export const SkillGraph = styled.div`
     .recharts-pie{
         .recharts-label{
             tspan{
-                color :#FFF;
                 font-size : 26px;
                 font-weight : 800;
             }
-           
         }
     }
 }

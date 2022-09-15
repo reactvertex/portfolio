@@ -17,12 +17,24 @@ top: -60%;
 clip-path: polygon(0% 0%, 2.7% 0.8%, 30.8% 100%, 0% 100%);
 background : #ffb400;
 z-index : 999;
+@media(max-width:992px){
+  display : none;
+}
 `;
 
 export const HomeSection = styled.div`
   height : 100vh;
+  @media(max-width:992px){
+  height : 80vh;
+
+  }
 `;
 
+export const UserInfo = styled.div`
+@media(max-width:992px){
+  align-items : center;
+}
+`;
 export const UserName = styled.div`
 position : relative;
 padding-left : 70px;
@@ -43,6 +55,16 @@ span  {
     width: 45px;
     border-radius: 10px;
     background-color : #ffb400;
+    @media(max-width:992px){
+     height: 5px;
+     width: 45px;
+     top : 20px;
+     left:15px;
+    }
+  }
+  @media(max-width:992px){
+    font-size:40px;
+    line-height : 45px;
   }
 `;
 
@@ -51,6 +73,10 @@ export const ProfileDetails = styled.div`
   margin : 20px 20px 28px;
   line-height : 25px;
   color : #fff;
+  @media(max-width:992px){
+    font-size: 15px;
+    line-height : 22px;
+  }
 `;
 
 export const AboutButton = styled.button`
@@ -63,6 +89,9 @@ width : 230px;
 color : #fff;
 margin-left : 20px;
 font-weight : 800;
+@media(max-width:992px){
+  margin-left : 0px;
+}
 &:hover {
     color : #ffb400;
     background-color : #fff;

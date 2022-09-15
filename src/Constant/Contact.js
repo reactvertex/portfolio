@@ -16,7 +16,7 @@ export const userinfo = [
     {
         index : 3,
         label : 'CALL ME',
-        details : '+99 9919466386',
+        details : '+91  9919466386',
         Icon : <i className='fa fa-phone-square position-absolute'></i>
     },
 ]

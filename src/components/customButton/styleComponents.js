@@ -24,4 +24,7 @@ div{
         fill : #ffb400;
     }
   }
+  @media(max-width:992px){
+    margin-left : 0px;
+  }
 `;

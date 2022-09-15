@@ -14,6 +14,11 @@ h1 {
     line-height : 1.5;
     span{
      color : #ffb400;
+    }  
+}
+@media(max-width:992px){
+    h1{
+        font-size: 35px;
     }
 }
 `;
@@ -28,4 +33,7 @@ font-weight: 800;
 -webkit-transform: translateY(-50% ,-50%);
 transform: translateY(-50%, -50%);
 color: hsla(0,0%,100%,.07);
+@media(max-width:992px){
+    font-size: 70px;
+  }
 `;
