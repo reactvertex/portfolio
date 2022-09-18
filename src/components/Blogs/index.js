@@ -7,6 +7,7 @@ const BlogPage = () => {
         <BlogContent className="row">
             <div className='col-lg-12 col-sm-12 m-0'>
                 <PageHeader title="POSTS" subTitle1='MY' subTitle2='BLOG' />
+                <div style={{height : '100vh '}}></div>
             </div>
         </BlogContent>
     )

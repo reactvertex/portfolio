@@ -6,13 +6,14 @@ height: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
-   cursor : pointer;
-   border-radius : 50%;
-   background-color : #2b2a2a;
-   margin : 10px 20px;
-   display : flex;  
+cursor : pointer;
+border-radius : 50%;
+background-color : ${props => props.bgcolor};
+margin : 10px 20px;
+display : flex;  
    &:hover {
     background-color : #ffb400;
+
   }
 `;
 

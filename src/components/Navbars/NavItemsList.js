@@ -1,26 +1,15 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { NavItems, NavIcon,NavLabel } from './styleComponent';
 
 
-const NavItemsList = ({ val, index }) => {
+const NavItemsList = ({ val, index ,handlePath,clickActiveIndex }) => {
     const [activeItem, setActiveList] = useState('')
-
-    const navigate = useNavigate()
-    const handlePath = (path) => {
-        navigate(`${path}`)
-    }
-    const onMouseEnter = (index) => {
-        setActiveList(index)
-    }
-
-    const onMouseLeave = () => {
-        setActiveList('')
-    }
+   
 
     return (
         <NavItems index={index}
-            onClick={() => handlePath(val.path)}           
+           onClick={() => handlePath(val.path, index)}    
+           bgcolor={index === clickActiveIndex ? '#ffb400' : '#2b2a2a' }      
         >
             <NavIcon>
                 {val.Icon}

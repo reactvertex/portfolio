@@ -3,6 +3,7 @@ import { PersonalInfo, PersonalContainer, PersonalDetails, DetailBox } from './s
 import { personInfoonAboutus, careerDetails } from './constant';
 import CustomButton from '../customButton';
 import { ReactComponent as DownloadCv } from '../../Assest/download.svg';
+import ExampleDoc from '../../Assest/resume/Sandip_resume.pdf'
 import HorizentalLine from '../HorizentalLine';
 
 const PersonalInformation = () => {
@@ -15,17 +16,18 @@ const PersonalInformation = () => {
                         <div className="pt-3 row d-flex flex-wrap">
                             {personInfoonAboutus.map((val, index) => (
                                 <PersonalDetails className="py-1 col-6">
-                                    <span style={{ color: '#fff', opacity: .5 }}>{val.label}</span>:  <span style={{ color: '#FFFFFF' , wordBreak : 'break-all'}}>{val.value}</span>
+                                    <span style={{ color: '#fff', opacity: .5 }}>{val.label}</span>:  <span style={{ color: '#FFFFFF', wordBreak: 'break-all' }}>{val.value}</span>
                                 </PersonalDetails>
                             ))}
                         </div>
                         <div className="mt-5">
-
-                        <CustomButton
-                            text='DOWNLOAD CV'
-                            icon={<DownloadCv />}
-                            marginLeft='0px'
-                        />
+                            <a href={ExampleDoc} download="Sandip_resume" target='_blank' style={{textDecoration : 'none'}}>
+                                <CustomButton
+                                    text='DOWNLOAD CV'
+                                    icon={<DownloadCv />}
+                                    marginLeft='0px'
+                                />
+                            </a>
                         </div>
 
                     </PersonalInfo>
