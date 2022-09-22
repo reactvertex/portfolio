@@ -5,6 +5,9 @@ background-color : #111;
 height : 100%;
 width : 100%;
 margin : 0;
+@media(max-width:992px){
+  margin-bottom :   60px;
+}
 `;
 //Personal Information 
 export const PersonalInfo = styled.div`
@@ -13,7 +16,10 @@ export const PersonalInfo = styled.div`
         color : #fff; 
         font-size : 26px;
         font-weight : 800;
-        margin-bottom : 10px
+        margin-bottom : 10px;
+        @media(max-width:992px){
+          text-align : center;
+        }
     }
 `;
 
@@ -36,7 +42,6 @@ padding : 20px 40px 25px 40px;
     font-weight : 800;
     margin : 0;
     display : relative;
-   
     &:after {
        content: "+";
        position: absolute;
@@ -72,8 +77,8 @@ export const ExperienceSection = styled.div`
   .experience {
     margin : 0px 0px 60px 0px;
   }
-  @media(max-width:992px){
-    margin :  0px 10px;
+ @media(max-width:992px){
+    margin : 0px 20px
   }
 `;
 

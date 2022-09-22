@@ -1,5 +1,5 @@
 import React from "react";
-import { PortfolioContent, ProHeader, HeaderContent, ProjectContent, ProjectDetails, HoverContent } from './styleComponents';
+import { PortfolioContent, ProHeader, HeaderContent, ProjectContent, ProjectDetails, HoverContent,ProjectContainer } from './styleComponents';
 import { contentList, projectContentsList } from './Constant';
 import { useState } from "react";
 import { useEffect } from "react";
@@ -31,7 +31,7 @@ const ProjectList = () => {
                     <HeaderContent className="proHeaderList" textColor={item == selectedItem ? '#ffb400' : '#fff'} onClick={() => handleActive(item)}>{item}</HeaderContent>
                 ))}
             </ProHeader>
-            <div className='d-flex mx-5 px-5 flex-wrap' >
+            <ProjectContainer className='d-flex  flex-wrap' >
                 {updatedProContentsList.map((val, index) => (
                     <ProjectDetails className="col-lg-4  my-4" onClick={() =>handleProjectPreview(val.url)}>
                         {hoverDetails?.isHover == true && hoverDetails.index == index ?
@@ -46,7 +46,7 @@ const ProjectList = () => {
                         }
                     </ProjectDetails>
                 ))}
-            </div>
+            </ProjectContainer>
         </PortfolioContent>
     )
 }

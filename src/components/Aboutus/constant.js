@@ -19,10 +19,6 @@ export const personInfoonAboutus = [
         value: 'India'
     },
     {
-        label: 'Freelancer',
-        value: 'Available'
-    },
-    {
         label: 'Address',
         value: 'Noida'
     },
