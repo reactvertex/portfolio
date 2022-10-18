@@ -95,7 +95,6 @@ export const IconSection = styled.div`
   height: 50px;
   position: relative;
   text-align: center;
-  z-index: 1;
   border-radius: 50%;
   background-color : #ffb400;
   i{

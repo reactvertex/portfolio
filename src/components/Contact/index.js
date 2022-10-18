@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactContent, ContactHeading, ContactDescription, ContanctWrapper,UserDetailsIcon,UserDetailsHeading,UserDetailsDetails } from './styleComponent';
+import {FormContainerWrapper, ContactContent, ContactHeading, ContactDescription, ContanctWrapper,UserDetailsIcon,UserDetailsHeading,UserDetailsDetails ,UserDetailsContainer} from './styleComponent';
 import {userinfo} from '../../Constant/Contact';
 import PageHeader from '../PageHeader';
 import ContactForm from "./contactForm";
@@ -11,7 +11,7 @@ const ContactPage = () => {
             <div className='col-lg-12 col-sm-12 m-0'>
                 <PageHeader title="CONTACT" subTitle1='GET IN' subTitle2='TOUCH' />
             </div>
-            <div className='col-lg-5 col-sm-12 m-0' style={{height : '100vh'}}>
+            <FormContainerWrapper className='col-lg-5 col-sm-12 m-0'>
                 <div className="d-flex  justify-content-center">
                     <ContanctWrapper>
                         <ContactHeading>DON'T BE SHY!</ContactHeading>
@@ -19,15 +19,15 @@ const ContactPage = () => {
                         {userinfo.map(({index ,label ,details,Icon }) =>(
                             <div className="d-flex mt-3">
                                 <UserDetailsIcon className="d-flex flex-initial align-items-center">{Icon}</UserDetailsIcon>
-                                <div className="px-5 mx-3">
+                                    <UserDetailsContainer className="mx-3">
                                     <UserDetailsHeading>{label}</UserDetailsHeading>
                                     <UserDetailsDetails>{details}</UserDetailsDetails>
-                                </div>
+                                    </UserDetailsContainer>
                             </div>
                         ))}
                     </ContanctWrapper>
                 </div>
-            </div>
+            </FormContainerWrapper>
             <div className='col-lg-7 col-sm-12 m-0'>
                 <ContactForm />
             </div>
