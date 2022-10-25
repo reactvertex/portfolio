@@ -22,6 +22,7 @@ const HomePage = () => {
                         icon={<RightArrow />}
                         marginLeft='20px'
                         handleClick={handleClick}
+                        width={'230px'}
                     />
                 </UserInfo>
             </div>

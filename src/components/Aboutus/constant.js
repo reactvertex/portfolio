@@ -57,39 +57,133 @@ export const careerDetails = [
 
 export const skillList = [
     {
-        skillName: 'React',
+        skillName: 'React.Js',
+        dataPercentage : '90%',
         data: [
-            { name: 'Group A', value: 400 },
-            { name: 'Group B', value: 300 },
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    },
+    {
+        skillName: 'Next.js',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
         ]
     },
     {
         skillName: 'JavaScript',
+        dataPercentage : '90%',
         data: [
-            { name: 'Group A', value: 400 },
-            { name: 'Group B', value: 300 },
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
         ]
     },
     {
-        skillName: 'JavaScript',
+        skillName: 'TypeScript',
+        dataPercentage : '90%',
         data: [
-            { name: 'Group A', value: 400 },
-            { name: 'Group B', value: 300 },
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    }, 
+    {
+        skillName: 'Redux',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
         ]
     },
     {
-        skillName: 'JavaScript',
+        skillName: 'GATSBAY.JS',
+        dataPercentage : '90%',
         data: [
-            { name: 'Group A', value: 400 },
-            { name: 'Group B', value: 300 },
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
         ]
-    },  {
-        skillName: 'JavaScript',
+    }, 
+    {
+        skillName: 'jquery',
+        dataPercentage : '90%',
         data: [
-            { name: 'Group A', value: 400 },
-            { name: 'Group B', value: 300 },
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
         ]
-    }
+    }, 
+    {
+        skillName: 'Axios',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    }, 
+    {
+        skillName: 'firebase',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    }, 
+    {
+        skillName: 'html',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    }, 
+    {
+        skillName: 'css',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    }, 
+    {
+        skillName: 'scss',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    }, 
+    {
+        skillName: 'material-ui',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    }, 
+    {
+        skillName: 'bootstrap',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    }, 
+    {
+        skillName: 'style-component',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    }, 
+    {
+        skillName: 'unit-test',
+        dataPercentage : '90%',
+        data: [
+            { name: 'Group A', value: 90 },
+            { name: 'Group B', value: 10 },
+        ]
+    },
 ]
 
 // <------------------------Experience data ----------------->

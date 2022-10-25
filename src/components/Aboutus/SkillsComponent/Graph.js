@@ -30,7 +30,7 @@ const Graph = ({val}) => {
             position="center"
             fill={'white'}
           >
-            30%
+            {val.dataPercentage}
           </Label>
         </Pie>
       </PieChart>

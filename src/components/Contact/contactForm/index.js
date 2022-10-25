@@ -47,6 +47,7 @@ const ContactForm = () => {
                     text='SEND MESSAGE'
                     icon={<i class="fa fa-send-o"></i>}
                     marginLeft='0px'
+                    width={'230px'}
                 />
                 </FormSubmitButton>
 

@@ -33,3 +33,9 @@ export const Skilllabel = styled.div`
    text-transform : uppercase;
    color : #FFF;
 `;
+
+export const ExpandedSection = styled.div`
+   color  : #fff;
+   box-shadow : 0px -7px 0px #252525;
+   padding-top : 20px;
+`;

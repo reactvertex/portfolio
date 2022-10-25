@@ -26,6 +26,7 @@ const PersonalInformation = () => {
                                     text='DOWNLOAD CV'
                                     icon={<DownloadCv />}
                                     marginLeft='0px'
+                                    width={'230px'}
                                 />
                             </a>
                         </div>

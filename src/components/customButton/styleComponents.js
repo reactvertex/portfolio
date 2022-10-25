@@ -6,7 +6,7 @@ padding : 15px 10px;
 background-color : #111;
 border-radius : 40px;
 border : 1px solid #ffb400;
-width : 230px;
+width : ${props => props.width};
 color : #fff;
 margin-left : ${props => props.marginLeft} ;
 font-weight : 800;
