@@ -42,6 +42,10 @@ font-weight : 800;
 font-size : 60px;
 line-height : 62px;
 color : #ffb400;
+a {
+  text-decoration : none;
+  color :#ffb400;
+}
 span  {
     color : #fff;
     margin : 10px 0px;

@@ -15,7 +15,8 @@ const HomePage = () => {
             <div className="col-lg-5 col-sm-12" ></div>
             <div className="col-lg-7 col-sm-12">
                 <UserInfo className="d-flex flex-column justify-content-center h-100">
-                    <UserName className="text-uppercase ">{userDetails.name} <span>{userDetails.profile}</span></UserName>
+                {/* <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="white" data-type="VERTICAL" data-vanity="sandip-sharma-3771b8127" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/sandip-sharma-3771b8127?trk=profile-badge">Sandip Sharma</a></div> */}
+                    <UserName className="text-uppercase badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="white" data-type="VERTICAL" data-vanity="sandip-sharma-3771b8127" data-version="v1"><a target="_blank" href="https://in.linkedin.com/in/sandip-sharma-3771b8127?trk=profile-badge">{userDetails.name} </a><span>{userDetails.profile}</span></UserName>
                     <ProfileDetails>{userDetails.profileDetails}</ProfileDetails>
                     <CustomButton
                         text={userDetails.buttonText}
