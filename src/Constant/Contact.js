@@ -4,7 +4,7 @@ export const userinfo = [
     {   
         index : 1,
         label : 'ADDRESS POINT',
-        details : 'Noida City, India (201301',
+        details : 'Noida City, India (201301)',
         Icon :<i className='fa fa-map position-absolute'></i>
     },
     {

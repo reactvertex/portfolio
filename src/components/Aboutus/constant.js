@@ -190,7 +190,7 @@ export const skillList = [
 
 export const ExpDetail = [
     {
-        duration : '2019 - Persent',
+        duration : '2022 - Persent',
         profile : 'Sr. Software Engineer',
         company : 'People10 Technosoft',
         jobDetails : 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
