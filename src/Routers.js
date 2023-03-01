@@ -8,7 +8,7 @@ import Portfolio from "./pages/Portfolio";
 
 const Routers = () => {
   return (
-    // <Router>
+
       <Routes>
         <Route path="/" element={ <Home />} />
         <Route path="/about" element={ <About />} />
@@ -16,7 +16,7 @@ const Routers = () => {
         <Route path="/contact" element={ <Contact />} />
         <Route path="/blog" element={ <Blog />} />
       </Routes>
-    // </Router>
+
   )
 }
 export default Routers;

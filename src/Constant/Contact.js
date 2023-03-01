@@ -4,7 +4,7 @@ export const userinfo = [
     {   
         index : 1,
         label : 'ADDRESS POINT',
-        details : 'Noida City, India (201301',
+        details : 'Noida City, India (201301)',
         Icon :<i className='fa fa-map position-absolute'></i>
     },
     {
@@ -16,7 +16,7 @@ export const userinfo = [
     {
         index : 3,
         label : 'CALL ME',
-        details : '+99 9919466386',
+        details : '+91  9919466386',
         Icon : <i className='fa fa-phone-square position-absolute'></i>
     },
 ]

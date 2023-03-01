@@ -17,7 +17,7 @@ const Graph = ({val}) => {
           data={val.data}
           cx={130}
           cy={80}
-          innerRadius={55}
+          innerRadius={60}
           outerRadius={70}
           paddingAngle={0}
           dataKey="value"
@@ -28,9 +28,9 @@ const Graph = ({val}) => {
           <Label
             width={30}
             position="center"
-            className='lableValue'
+            fill={'white'}
           >
-            30%
+            {val.dataPercentage}
           </Label>
         </Pie>
       </PieChart>

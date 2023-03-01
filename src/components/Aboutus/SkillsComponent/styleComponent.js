@@ -18,11 +18,9 @@ export const SkillGraph = styled.div`
     .recharts-pie{
         .recharts-label{
             tspan{
-                color :#FFF;
                 font-size : 26px;
                 font-weight : 800;
             }
-           
         }
     }
 }
@@ -34,4 +32,10 @@ export const Skilllabel = styled.div`
    font-weight : 800;
    text-transform : uppercase;
    color : #FFF;
+`;
+
+export const ExpandedSection = styled.div`
+   color  : #fff;
+   box-shadow : 0px -7px 0px #252525;
+   padding-top : 20px;
 `;
