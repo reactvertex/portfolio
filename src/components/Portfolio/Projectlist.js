@@ -33,7 +33,7 @@ const ProjectList = () => {
             </ProHeader>
             <ProjectContainer className='d-flex  flex-wrap' >
                 {updatedProContentsList.map((val, index) => (
-                    <ProjectDetails className="col-lg-4  my-4" onClick={() =>handleProjectPreview(val.url)}>
+                    <ProjectDetails  data-aos="zoom-in" data-aos-delay={(index+1) * 500}  className="col-lg-4  my-4" onClick={() =>handleProjectPreview(val.url)}>
                         {hoverDetails?.isHover == true && hoverDetails.index == index ?
                             <HoverContent className="d-flex justify-content-center align-items-center">
                                 <div className="text-center">{val.label}</div>

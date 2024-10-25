@@ -3,7 +3,7 @@ import { TitleSection, Title } from './styleComponent';
 
 const PageHeader = ({ title, subTitle1, subTitle2 }) => {
   return (
-    <TitleSection >
+    <TitleSection  data-aos="fade-right" data-aos-delay="700" >
       <h1>
         {subTitle1} <span>{subTitle2}</span>
       </h1>

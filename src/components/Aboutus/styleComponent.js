@@ -36,6 +36,7 @@ border : 1px solid #252525;
 border-radius : 5px;
 margin : 20px;
 padding : 20px 40px 25px 40px;
+min-height: 180px;
  h3 {
     color : #ffb400;
     font-size : 50px;
@@ -148,4 +149,5 @@ export const JobTitle = styled.div`
 export const JobDetails = styled.div`
 font-size : 14px;
 color : #eee;
+padding: 3px 0px;
 `;

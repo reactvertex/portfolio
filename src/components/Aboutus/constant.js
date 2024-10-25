@@ -12,7 +12,7 @@ export const personInfoonAboutus = [
     },
     {
         label: 'Age',
-        value: '25 Years'
+        value: '27 Years'
     },
     {
         label: 'Nationality',
@@ -36,7 +36,7 @@ export const personInfoonAboutus = [
 export const careerDetails = [
     {
         label: 'Year of Experience',
-        value: 3
+        value: 5
     },
     {
         label: 'COMPLETED PROJECTS',
@@ -193,20 +193,33 @@ export const ExpDetail = [
         duration : '2022 - Persent',
         profile : 'Sr. Software Engineer',
         company : 'People10 Technosoft',
-        jobDetails : 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+        jobDetails : {
+            point1: '- Key role in developing Frontend applications, addressing business changes effectively.',
+            point2: '- Worked in Agile-driven environment to effectively maintain project timelines and utilize available resources.',
+            point3: '- Mentored interns to be successful in their professional development'
+        }
     },
     {
         duration : '2020 - 2022',
         profile : 'Web Developer',
         company : 'Excellence Technologies',
-        jobDetails : 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+        jobDetails: {
+            point1: '- Developed and maintained user-facing features of software applications as a Frontend Software Developer.',
+            point2: '- Collaborated closely with designers and backend developers to ensure seamless integration of frontend and backend systems.',
+            point3: '- Contributed to the success of products and client satisfaction through the delivery of high-quality code and user-centric solutions'
+        }
 
     },
     {
         duration : '2019 - 2020',
         profile : 'Frontend Developer',
         company : 'Eduzent Infotech',
-        jobDetails : 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+        jobDetails :{
+            point1: '- Converted mockups into HTML, JavaScript, AJAX, and JSON.',
+            point2: '- Created responsive website layouts and user interface using HTML and CSS best practices.',
+            point3: '- Enhanced Frontend with interactive JavaScript.'
+        }
+
     }
    
 ]

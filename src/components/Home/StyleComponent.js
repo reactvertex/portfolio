@@ -40,16 +40,20 @@ position : relative;
 padding-left : 70px;
 font-weight : 800;
 font-size : 60px;
-line-height : 62px;
+line-height : 70px;
 color : #ffb400;
+text-transform: uppercase;
 a {
   text-decoration : none;
   color :#ffb400;
 }
-span  {
+  p{
     color : #fff;
     margin : 10px 0px;
-}
+    font-size: 45px;
+    line-height : 50px;
+    text-transform: capitalize;
+  }
 &:before {
     content: " ";
     position: absolute;
@@ -73,10 +77,11 @@ span  {
 `;
 
 export const ProfileDetails = styled.div`
-  font-size : 16px;
+  font-size : 18px;
   margin : 20px 20px 28px;
   line-height : 25px;
   color : #fff;
+  padding-left : 55px;
   @media(max-width:992px){
     font-size: 15px;
     line-height : 22px;
@@ -93,6 +98,7 @@ width : 230px;
 color : #fff;
 margin-left : 20px;
 font-weight : 800;
+padding-left : 55px;
 @media(max-width:992px){
   margin-left : 0px;
 }

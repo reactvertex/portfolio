@@ -30,7 +30,7 @@ const ContactForm = () => {
         <>
                    
             <form onSubmit={(e) => handleSubmit(e)}>
-                <div className="row mb-4 justify-content-between m-0">
+                <div data-aos="fade-left" data-aos-delay="500" className="row mb-4 justify-content-between m-0">
                     <div className='col-lg-6 px-0'>
                         <InputBox className='w-100' type='text' placeholder='YOUR NAME' handleChange={handleChange} name='name' />
                     </div>
@@ -39,10 +39,10 @@ const ContactForm = () => {
                     </EmailBox>
                     
                 </div>
-                <InputBox type='text' placeholder='YOUR SUBJECT' handleChange={handleChange} name='subject' />
-                <TextAreaBox type='text' placeholder='YOUR MESSAGE' handleChange={handleChange} name='subject'></TextAreaBox>
+                <InputBox dataAos="fade-left" dataAosDelay="700" type='text' placeholder='YOUR SUBJECT' handleChange={handleChange} name='subject' />
+                <TextAreaBox dataAos="fade-left" dataAosDelay="700" type='text' placeholder='YOUR MESSAGE' handleChange={handleChange} name='subject'></TextAreaBox>
                 <ErrorMessage />
-                <FormSubmitButton>
+                <FormSubmitButton data-aos="fade-left" data-aos-delay="1100">
                 <CustomButton
                     text='SEND MESSAGE'
                     icon={<i class="fa fa-send-o"></i>}

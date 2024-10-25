@@ -10,6 +10,7 @@ const ContactPage = () => {
         const script = document.createElement('script');
         script.src = "https://static-bundles.visme.co/forms/vismeforms-embed.js";
         script.async = false;
+        console.log(script,'script');
         document.body.appendChild(script);
         return () => {
           document.body.removeChild(script);
@@ -20,14 +21,13 @@ const ContactPage = () => {
             <div className='col-lg-12 col-sm-12 m-0'>
                 <PageHeader title="CONTACT" subTitle1='GET IN' subTitle2='TOUCH' />
             </div>
-            {/* <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script> */}
             <FormContainerWrapper className='col-lg-5 col-sm-12 m-0'>
-                <div className="d-flex  justify-content-center">
+                <div data-aos="fade-down" data-aos-delay="500" className="d-flex  justify-content-center">
                     <ContanctWrapper>
-                        <ContactHeading>DON'T BE SHY!</ContactHeading>
-                        <ContactDescription className="mt-3">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</ContactDescription>
+                        <ContactHeading data-aos="fade-right" data-aos-delay="700" >DON'T BE SHY!</ContactHeading>
+                        <ContactDescription className="mt-3" data-aos="fade-right" data-aos-delay="1000">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</ContactDescription>
                         {userinfo.map(({index ,label ,details,Icon }) =>(
-                            <div className="d-flex mt-3">
+                            <div className="d-flex mt-3" data-aos="fade-right" data-aos-delay="1200">
                                 <UserDetailsIcon className="d-flex flex-initial align-items-center">{Icon}</UserDetailsIcon>
                                     <UserDetailsContainer className="mx-3">
                                     <UserDetailsHeading>{label}</UserDetailsHeading>
@@ -39,8 +39,8 @@ const ContactPage = () => {
                 </div>
             </FormContainerWrapper>
             <div className='col-lg-7 col-sm-12 m-0'>
-            <div class="visme_d" data-title="Untitled Project" data-url="8r6768yk-untitled-project" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="18397"></div>
-                {/* <ContactForm /> */}
+            {/* <div class="visme_d" data-title="Untitled Project" data-url="8r6768yk-untitled-project" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="18397"></div> */}
+                <ContactForm />
             </div>
         </ContactContent>
     )
