@@ -1,4 +1,3 @@
-// import { ExperienceSection } from "./styleComponent"
 
 
 export const personInfoonAboutus = [

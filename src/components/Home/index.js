@@ -22,7 +22,7 @@ const HomePage = () => {
                         transition={{ duration: 0.6 }}
                         className="text-4xl md:text-6xl font-bold leading-tight"
                     >
-                        <UserName data-aos="fade-right" data-aos-delay="500" className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="white" data-type="VERTICAL" data-vanity="sandip-sharma-3771b8127" data-version="v1"><a target="_blank" href="https://in.linkedin.com/in/sandip-sharma-3771b8127?trk=profile-badge">{userDetails.name} </a><p>{userDetails.profile}</p></UserName>
+                        <UserName data-aos="fade-right" data-aos-delay="500" className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="white" data-type="VERTICAL" data-vanity="sandip-sharma-3771b8127" data-version="v1"><a target="_blank" rel="noreferrer" href="https://in.linkedin.com/in/sandip-sharma-3771b8127?trk=profile-badge">{userDetails.name} </a><p>{userDetails.profile}</p></UserName>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}

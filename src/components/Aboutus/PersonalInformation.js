@@ -1,4 +1,3 @@
-import React from "react";
 import { PersonalInfo, PersonalContainer, PersonalDetails, DetailBox } from './styleComponent';
 import { personInfoonAboutus, careerDetails } from './constant';
 import CustomButton from '../customButton';
@@ -21,7 +20,7 @@ const PersonalInformation = () => {
                             ))}
                         </div>
                         <div className="mt-5">
-                            <a href={ExampleDoc} download="Sandip_resume" target='_blank' style={{textDecoration : 'none'}}>
+                            <a href={ExampleDoc} download="Sandip_resume" target='_blank' rel="noreferrer" style={{textDecoration : 'none'}}>
                                 <CustomButton
                                     text='DOWNLOAD CV'
                                     icon={<DownloadCv />}
