@@ -24,11 +24,20 @@ const Navbars = () => {
         setClickActiveIndex(index)
     }
     return (
-        <NavbarContainer display={routePath === '/' ? 'none' : 'flex'} className="no-gutters justify-content-center align-items-center" >
-            {NavIconsList.map((val, index) => (
-                <NavItemsList handlePath={handlePath} val={val} index={index} clickActiveIndex={clickActiveIndex}/>
-            ))}
-        </NavbarContainer>
+      <NavbarContainer
+  display={routePath === '/' ? 'none' : 'flex'}
+  className="no-gutters justify-content-center align-items-center"
+>
+  {NavIconsList.map((val, index) => (
+    <NavItemsList
+      key={index}
+      handlePath={handlePath}
+      val={val}
+      index={index}
+      clickActiveIndex={clickActiveIndex}
+    />
+  ))}
+</NavbarContainer>
     )
 }
 export default Navbars;

@@ -1,11 +1,11 @@
 // import { PieChart, Pie, Cell, Label } from 'recharts';
 import {SkillGraph, SkillChip} from './styleComponent';
 
-const data = [
-  { name: 'Group A', value: 400 },
-  { name: 'Group B', value: 300 },
-];
-const COLORS = ['#ffb400', '#111'];
+// const data = [
+//   { name: 'Group A', value: 400 },
+//   { name: 'Group B', value: 300 },
+// ];
+// const COLORS = ['#ffb400', '#111'];
 
 const Graph = ({val}) => {
 
