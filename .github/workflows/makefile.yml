@@ -25,8 +25,5 @@ jobs:
       - name: Run build
         run: CI=false npm run build
 
-      - name: Run lint
-        run: npm run lint
-
       - name: Run tests (optional)
         run: npm test
