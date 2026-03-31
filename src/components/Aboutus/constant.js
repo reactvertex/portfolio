@@ -1,4 +1,4 @@
-import { ExperienceSection } from "./styleComponent"
+// import { ExperienceSection } from "./styleComponent"
 
 
 export const personInfoonAboutus = [

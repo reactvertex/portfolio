@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import {useEffect} from "react";
 import { FormContainerWrapper, ContactContent, ContactHeading, ContactDescription, ContanctWrapper, UserDetailsIcon, UserDetailsHeading, UserDetailsDetails, UserDetailsContainer } from './styleComponent';
 import { userinfo } from '../../Constant/Contact';
 import PageHeader from '../PageHeader';

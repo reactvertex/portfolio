@@ -1,6 +1,5 @@
-import React from 'react';
 import PageHeader from '../PageHeader';
-import { AboutusContainer, AboutusPageContent } from './styleComponent';
+import { AboutusPageContent } from './styleComponent';
 import PersonalInformation from './PersonalInformation';
 import SKillsComponent from './SkillsComponent';
 import AllExperience from './Expericene';

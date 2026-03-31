@@ -1,8 +1,8 @@
-import  { useEffect, useState } from "react";
+// import  { useEffect, useState } from "react";
 import SkillGraph from './Graph';
 import HorizentalLine from '../../HorizentalLine';
 import { skillList } from '../constant';
-import { SkillsContainers, SkillsHeader, ExpandedSection } from './styleComponent';
+import { SkillsContainers, SkillsHeader } from './styleComponent';
 // import CustomButton from '../../customButton';
 
 const SKillsComponent = () => {

@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import InputBox from "../../InputBox";
 import TextAreaBox from '../../InputBox/textArea';
 import CustomButton from '../../customButton';
-import { ReactComponent as RightArrow } from '../../../Assest/arrow_right.svg';
+// import { ReactComponent as RightArrow } from '../../../Assest/arrow_right.svg';
 import ErrorMessage from '../../Toast';
 import {EmailBox,FormSubmitButton} from '../styleComponent';
 const ContactForm = () => {
-    const [error, setError] = useState(false)
     const [formDetails, setFormDetails] = useState({
         name: '',
         email: '',
@@ -14,7 +13,6 @@ const ContactForm = () => {
         message: ''
     })
     const handleChange = (e) => {
-        setError(false)
         setFormDetails({ ...formDetails, [e.target.name]: e.target.value })
     }
     const handleSubmit = (e) => {
@@ -22,9 +20,7 @@ const ContactForm = () => {
         if (formDetails.email && formDetails.name) {
 
             console.log(formDetails, 'formDetails');
-        } else {
-            setError(true)
-        }
+        } 
     }
     return (
         <>

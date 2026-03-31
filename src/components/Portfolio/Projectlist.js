@@ -28,13 +28,13 @@ const ProjectList = () => {
         <PortfolioContent>
             <ProHeader className="d-flex justify-content-center">
                 {contentList.map((item) => (
-                    <HeaderContent className="proHeaderList" textColor={item == selectedItem ? '#ffb400' : '#fff'} onClick={() => handleActive(item)}>{item}</HeaderContent>
+                    <HeaderContent className="proHeaderList" textColor={item === selectedItem ? '#ffb400' : '#fff'} onClick={() => handleActive(item)}>{item}</HeaderContent>
                 ))}
             </ProHeader>
             <ProjectContainer className='d-flex  flex-wrap' >
                 {updatedProContentsList.map((val, index) => (
                     <ProjectDetails  data-aos="zoom-in" data-aos-delay={(index+1) * 500}  className="col-lg-4  my-4" onClick={() =>handleProjectPreview(val.url)}>
-                        {hoverDetails?.isHover == true && hoverDetails.index == index ?
+                        {hoverDetails?.isHover === true && hoverDetails.index === index ?
                             <HoverContent className="d-flex justify-content-center align-items-center">
                                 <div className="text-center">{val.label}</div>
                             </HoverContent> :

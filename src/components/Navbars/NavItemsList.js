@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import { NavItems, NavIcon,NavLabel } from './styleComponent';
+import { NavItems, NavIcon } from './styleComponent';
 
 
 const NavItemsList = ({ val, index ,handlePath,clickActiveIndex }) => {
-    const [activeItem, setActiveList] = useState('')
-   
 
     return (
         <NavItems index={index}

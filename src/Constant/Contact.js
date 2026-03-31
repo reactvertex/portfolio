@@ -1,5 +1,3 @@
-import {ReactComponent as Mail} from '../Assest/mail.svg';
-
 export const userinfo = [
     {   
         index : 1,

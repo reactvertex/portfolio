@@ -1,6 +1,5 @@
-import React from 'react';
-import { PieChart, Pie, Cell, Label } from 'recharts';
-import {SkillGraph, Skilllabel, SkillChip} from './styleComponent';
+// import { PieChart, Pie, Cell, Label } from 'recharts';
+import {SkillGraph, SkillChip} from './styleComponent';
 
 const data = [
   { name: 'Group A', value: 400 },

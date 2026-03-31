@@ -12,7 +12,7 @@ const Navbars = () => {
     useEffect(() =>{
         if (routePath) {
             NavIconsList.map(val => {
-                if(routePath == val.path){
+                if(routePath === val.path){
                     setClickActiveIndex(val.index -1)
                 }
            } )    
