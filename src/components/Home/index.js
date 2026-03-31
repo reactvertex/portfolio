@@ -38,7 +38,7 @@ const HomePage = () => {
                         transition={{ delay: 0.4, duration: 0.6 }}
                         className="mt-8 flex flex-wrap justify-center gap-4"
                     >
-                        {/* <CustomButton
+                        <CustomButton
                             dataAos='fade-right'
                             dataAosdelay="1200"
                             text={userDetails.buttonText}
@@ -46,7 +46,7 @@ const HomePage = () => {
                             marginLeft='70px'
                             handleClick={handleClick}
                             width={'230px'}
-                        /> */}
+                        />
                     </motion.div>
                 </UserInfo>
             </div>
