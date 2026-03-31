@@ -36,6 +36,15 @@ export const Skilllabel = styled.div`
 
 export const ExpandedSection = styled.div`
    color  : #fff;
-   box-shadow : 0px -7px 0px #252525;
    padding-top : 20px;
 `;
+
+export const SkillChip = styled.div`
+ font-size: 16px;
+ font-weight: 800;
+ color: #FFF;
+ background-color: #ffb400;
+ padding: 6px 14px;
+ border-radius: 8px;
+ margin: 0px 10px;
+`

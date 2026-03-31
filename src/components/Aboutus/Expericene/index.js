@@ -17,9 +17,9 @@ const AllExperience = () => {
                         <DetailSection  data-aos-delay="1000" className='mx-3'>
                             <YearLabel>{kl.duration}</YearLabel>
                             <JobTitle>{kl.profile}  - <span>{kl.company}</span>  </JobTitle>
-                            <JobDetails>{kl.jobDetails.point1}</JobDetails>
-                            <JobDetails>{kl.jobDetails.point2}</JobDetails>
-                            <JobDetails>{kl.jobDetails.point3}</JobDetails>
+                            {kl.jobDetails?.map((point, index) => (
+                              <JobDetails key={index}>{point}</JobDetails>
+                            ))}
                         </DetailSection>
                     </ExpDetailBox>
                 ))}

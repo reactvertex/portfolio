@@ -1,6 +1,6 @@
 import React from 'react';
 import { PieChart, Pie, Cell, Label } from 'recharts';
-import {SkillGraph,Skilllabel} from './styleComponent';
+import {SkillGraph, Skilllabel, SkillChip} from './styleComponent';
 
 const data = [
   { name: 'Group A', value: 400 },
@@ -11,8 +11,8 @@ const COLORS = ['#ffb400', '#111'];
 const Graph = ({val}) => {
 
   return (
-    <SkillGraph className='d-flex flex-column align-items-center py-5 '>
-      <PieChart width={260} height={200} >
+    <SkillGraph className='d-flex flex-column align-items-center py-2 '>
+      {/* <PieChart width={260} height={200} >
         <Pie
           data={val.data}
           cx={130}
@@ -33,8 +33,9 @@ const Graph = ({val}) => {
             {val.dataPercentage}
           </Label>
         </Pie>
-      </PieChart>
-      <Skilllabel>{val.skillName}</Skilllabel>
+      </PieChart> */}
+      {/* <Skilllabel>{val.skillName}</Skilllabel> */}
+      <SkillChip >{val}</SkillChip>
     </SkillGraph>
   );
 }
